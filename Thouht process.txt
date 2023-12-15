@@ -1,0 +1,24 @@
+1.First I have created two files the first file is main.html and second file is main.js.
+
+2.In main html file I have add cdn of bootstrap and then I have add created Four divs and In first div I have used for name header of the
+web page and remain three Divs for each sizes of the screen. first div is for large screen ,second div is for mid size screens,third div is for small size screens.
+
+3.Inside each div I have created 4 divs one div consists of  two inputs tags,one select tag items in  and second div consist of button of submit,third div consist of input tag which show the output,fourth div consist of button which can reset the data.
+
+4.I have display grid to adjust the content in the center and used flex-direction as column.
+
+5.I have provide the ids to the inputs,select tags for acessing data for javascript.
+
+6.In javascript file I have create 3 funcions ,first function is about operations,second function is to reset the data in inputs tags
+third function will reset the answer value by change the input.
+
+7.In first function I have read the data form the html input tags by document.getelementbyId and I have stored values in a1,b1,c
+where a1 is stores first input value,b1 is store second input value ,c contains the operator to be used .I have used switch to perform the 
+operations between a1 & b1 in that I have create a variable "num" which will store the output of the operations.
+
+8.I have store the value of the num in input tag which show the output and the second function which reset the values in the input tags and  I have used document.getelementbyId to represent the empty values.I have used onchange event and implement the cleardata function in
+it.  
+
+9.Finally I have created two onclick buttons for implenting the functions by onclick of first button it perfrom main function and onclick of second button it perform the reset function.
+
+Thank you   
